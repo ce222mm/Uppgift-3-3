@@ -1,1 +1,162 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+#container {
+    
+    overflow: auto;
+    max-width: 600px;
+    margin: 0 auto;   
+    
+    
+}
+
+#topbar {
+    
+   background-image:url(pics/coffey.jpg); 
+   background-repeat:no-repeat;
+   font-style:italic;
+   font-size:12px;
+   background-position: 0 15px;
+   background-color:#4E463B;
+   color:#EAE8D3;
+   text-align:right;
+   height:220px;
+   
+    
+}
+
+#menu {
+  
+   height:38px;
+   background-color:#4E463B;
+   
+    
+}
+
+#menu li {
+    
+   float: left; 
+    
+}
+
+#menu ul {
+    
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 0 15px;
+    
+}
+
+#menu a {
+    
+    display: none;
+    
+}
+
+#menu ul li a {
+    
+    display: block;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 24px;
+    text-decoration: none;
+    background-color:#7B7368;
+    border-right: 1px solid #4E463B;
+    color: white;
+
+}
+
+#menu li.active a {
+    
+    background-color:#EAE8D3;
+    color:#797066;
+    
+}
+
+#menu a:hover {
+    
+    background-color: #9C9080;
+    
+}
+        
+      
+
+#content {
+    
+   border:1px solid #9C9080;   
+   background-color:#EAE8D3; 
+    
+}
+
+#maincontent {
+    
+   width:50%;
+   height:435px; 
+   float: left;
+   padding-left: 9px;
+   line-height: 20px;
+   font-size:12px;
+   color:#797066;
+   font-family: verdana;
+    
+}
+
+#maincontent img {
+    
+    margin-top: 5px;
+    margin-right: 9px;
+    margin-bottom: 3px;
+    float: left;
+}
+
+h1 {
+    
+    font-family: 'Times new roman';
+    font-size: 30px;
+    font-weight: 100;
+    
+}
+
+#subcontent {
+    
+    width: 45%;
+    height: 345px; 
+    float: right;
+    padding-left: 9px;
+    line-height: 20px;
+    font-size: 9px;
+    color: #797066;
+    font-family: verdana;
+    text-align: left;
+    border-left: 1px dashed;
+    
+}
+
+#subcontent ul {
+    
+    padding:0;
+    list-style-type:none;
+    
+}
+
+#subcontent h1 {
+    
+    font-size: 18px;
+    
+}
+
+#subcontent h2 {
+    
+    font-family: 'Times new roman';
+    font-weight: 100;
+}
+
+#subcontent a {
+    
+    color:#797066;
+    font-size:13px;
+}
+
+#bottomcontent {
+    
+    font-style: italic;
+    clear: both;
+    color:#797066;
+}
